@@ -75,4 +75,4 @@ $(document).ready(function(){
             timeout: 60000
         }); // end of AJAX call
     }
-}
+})
