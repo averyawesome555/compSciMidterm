@@ -24,10 +24,6 @@ $(document).ready(function(){
            localStorage.setItem("accessToken",resultData.access_token);
            localStorage.setItem("refreshToken",resultData.refreshToken);
            localStorage.setItem("expires_in",resultData.expires_in);
-           //window.history.pushState({}, document.title, "/GitLoginApp/" + "upload.html");
-
-           isFirstTimeLogin();
-           listAll();
         }
   });
 
